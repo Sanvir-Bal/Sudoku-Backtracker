@@ -140,7 +140,7 @@ bool solveBoard(int board[size][size], int input) {
         if (isValid(board, *row, *column, num)) {
             board[*row][*column] = num;
             if (input == 2) {
-                usleep(400 * 1000);
+                usleep(200 * 1000);
                 for (i = 0; i < 9; i++) {
                     printf("\n");
                 }
