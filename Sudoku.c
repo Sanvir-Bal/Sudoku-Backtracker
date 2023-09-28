@@ -39,6 +39,7 @@ void main() {
     case 1:
         if (solveBoard(board, input)) {
             printBoard(board);
+            printf("Solved\n");
         }
         else {
             printf("No solution\n");
@@ -47,6 +48,7 @@ void main() {
     case 2:
         if (solveBoard(board, input)) {
             printBoard(board);
+            printf("Solved\n");
         }
         else {
             printf("No solution\n");
