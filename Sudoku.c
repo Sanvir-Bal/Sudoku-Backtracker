@@ -301,4 +301,5 @@ void printBoard(int board[size][size]) {
         }
         printf("\n");
     }
+    printf("\n");
 }
