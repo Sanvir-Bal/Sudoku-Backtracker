@@ -131,8 +131,7 @@ bool solveBoard(int board[size][size], int input) {
     row = (int*)malloc(sizeof(int));
     column = (int*)malloc(sizeof(int));
     if (!findNext(board, row, column)) {
-        \
-            free(row);
+        free(row);
         free(column);
         return true;
     }
